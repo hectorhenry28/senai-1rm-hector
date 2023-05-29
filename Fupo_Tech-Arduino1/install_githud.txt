@@ -1,0 +1,123 @@
+instalar githud
+
+C:\Users\70635663260\Desktop\python>git commit -m "first commit"
+[master (root-commit) be9f6b2] first commit
+ Committer: Hector Henry Holder Corrales <70635663260@info.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 32 files changed, 212 insertions(+)
+ create mode 100644 Contagen_Regresiva-82.2a .py
+ create mode 100644 Desafio crea tabela de multip 82-3 .py
+ create mode 100644 Desafio-1.1.py
+ create mode 100644 Desafio-1entre60-82_1 .py
+ create mode 100644 Desafio-5.py
+ create mode 100644 Desafio-6_3.py
+ create mode 100644 Desafio-cronograma-1entre60-82_2 .py
+ create mode 100644 Desafio-tresnotasemeia-6.txt
+ create mode 100644 Desafio11-exerc_12.txt
+ create mode 100644 Desafio11_exercicio-12_1 .py
+ create mode 100644 Desafio_else-11.py
+ create mode 100644 Funciones algebraicas-182 .py
+ create mode 100644 MultiDivid-5.py
+ create mode 100644 Python realizar calculos-2.py
+ create mode 100644 Python_estderepet-82 .py
+ create mode 100644 Pythoncalculos-2.1.py
+ create mode 100644 Taboada Profe .py
+ create mode 100644 Untitled-12 .py
+ create mode 100644 Untitled-13 .py
+ create mode 100644 Untitled-6_1.py
+ create mode 100644 area.py
+ create mode 100644 contagen_Regresiva-82_2 .py
+ create mode 100644 crea un valor con parametros-82.4 .py
+ create mode 100644 desafio python.py
+ create mode 100644 desafio-1.1.txt
+ create mode 100644 desafio-3.py
+ create mode 100644 desafio-6_2 .py
+ create mode 100644 exerc-13_pronedio_Salarial .py
+ create mode 100644 factorial potencializacion-82 .py
+ create mode 100644 meiadesafio-6.py
+ create mode 100644 pytonprograma.py
+ create mode 100644 suma_conmutad-82-3 .py
+
+C:\Users\70635663260\Desktop\python>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\70635663260\Desktop\python>git branch -M main
+
+C:\Users\70635663260\Desktop\python>git remote add origin https://github.com/hectorhenry28/senai-1rm-hector.git
+
+C:\Users\70635663260\Desktop\python>git push -u origin main
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (30/30), 4.30 KiB | 4.30 MiB/s, done.
+Total 30 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hectorhenry28/senai-1rm-hector.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\70635663260\Desktop\python>
+
+—- – – - - - - - - - -  -
+nothing added to commit but untracked files present (use "git add" to track)
+
+<Creando nueva pasta>
+
+C:\Users\70635663260\Desktop\python>git add Fupo_Tech-Arduino1
+
+C:\Users\70635663260\Desktop\python>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Fupo_Tech-Arduino1/arduinoi.txt
+- - - - - - - - - - 
+C:\Users\70635663260\Desktop\python>git commit -m "adicionando test.txt"
+[main cb4e3e7] adicionando test.txt
+ Committer: Hector Henry Holder Corrales <70635663260@info.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+
+    git config --global --edit
+
+
+After doing this, you may fix the identity used for this commit with:
+
+
+    git commit --amend --reset-author
+
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Fupo_Tech-Arduino1/arduinoi.txt
+
+
+<para actualizar>
+C:\Users\70635663260\Desktop\python>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+
+nothing to commit, working tree clean
+
+
+C:\Users\70635663260\Desktop\python>
+<para colocar en la nube github>
+C:\Users\70635663260\Desktop\python>git push -u origin main
