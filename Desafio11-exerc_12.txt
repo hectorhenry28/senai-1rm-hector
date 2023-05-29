@@ -1,0 +1,5 @@
+Velocidade = float( input("informe Velocidade") )
+
+if Velocidade >= 80km:
+     
+    print("Multador")
