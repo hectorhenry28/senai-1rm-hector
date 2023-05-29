@@ -1,4 +1,25 @@
 instalar githud
+comandos git
+-git status
+~git add .
+~git comit -m “texto”
+~git pus
+comandos git
+-git status
+~git add .
+~git comit -m “texto”
+~git pus
+comandos git
+-git status
+~git add .
+~git comit -m “texto”
+~git pus
+comandos git
+-git status
+~git add .
+~git comit -m “texto”
+~git pus
+
 
 C:\Users\70635663260\Desktop\python>git commit -m "first commit"
 [master (root-commit) be9f6b2] first commit
